@@ -157,12 +157,12 @@ public class AuctionServer
 			itemsAndIDs.put(newItem.listingID(), newItem);
 			itemsPerSeller.put(sellerName, ++itemsBySeller);
 			return newItem.listingID();
-			//seller exists ?
-				//check items of that seller less than 20
-					//add to list of items
-					//incremenet items for that seller
-				//throw exception seller capacity full
-			//add seller 
+//			seller exists ?
+//				check items of that seller less than 20
+//					add to list of items
+//					incremenet items for that seller
+//				throw exception seller capacity full
+//			add seller 
 			
 		}
 		else {
