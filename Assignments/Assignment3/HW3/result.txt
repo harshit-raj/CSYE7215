@@ -1,0 +1,3232 @@
+Buildfile: /home/raj/MT/HW3/build.xml
+
+clean:
+   [delete] Deleting directory /home/raj/MT/HW3/build
+
+compile:
+    [mkdir] Created dir: /home/raj/MT/HW3/build/classes
+    [javac] /home/raj/MT/HW3/build.xml:19: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 9 source files to /home/raj/MT/HW3/build/classes
+
+jar:
+    [mkdir] Created dir: /home/raj/MT/HW3/build/jar
+      [jar] Building jar: /home/raj/MT/HW3/build/jar/HW3.jar
+
+run:
+     [java] Starting simulation: 100 customers; 2 cooks; 5 tables; machine machineCap 4.
+     [java] Number of customer 100
+     [java] Cook: 1 reporting for work.
+     [java] Cook: 0 reporting for work.
+     [java] Name: Customer 36 Priority: 3 going to coffee shop.
+     [java] Name: Customer 48 Priority: 3 going to coffee shop.
+     [java] Name: Customer 44 Priority: 3 going to coffee shop.
+     [java] Name: Customer 17 Priority: 3 going to coffee shop.
+     [java] Name: Customer 51 Priority: 3 going to coffee shop.
+     [java] Name: Customer 49 Priority: 3 going to coffee shop.
+     [java] Name: Customer 28 Priority: 3 going to coffee shop.
+     [java] Name: Customer 50 Priority: 3 going to coffee shop.
+     [java] Name: Customer 45 Priority: 3 going to coffee shop.
+     [java] Name: Customer 22 Priority: 3 going to coffee shop.
+     [java] Name: Customer 46 Priority: 3 going to coffee shop.
+     [java] Name: Customer 38 Priority: 3 going to coffee shop.
+     [java] Name: Customer 15 Priority: 3 going to coffee shop.
+     [java] Name: Customer 35 Priority: 3 going to coffee shop.
+     [java] Name: Customer 47 Priority: 3 going to coffee shop.
+     [java] Name: Customer 34 Priority: 3 going to coffee shop.
+     [java] Name: Customer 32 Priority: 3 going to coffee shop.
+     [java] Name: Customer 12 Priority: 3 going to coffee shop.
+     [java] Name: Customer 37 Priority: 3 going to coffee shop.
+     [java] Name: Customer 20 Priority: 3 going to coffee shop.
+     [java] Name: Customer 18 Priority: 3 going to coffee shop.
+     [java] Name: Customer 31 Priority: 3 going to coffee shop.
+     [java] Name: Customer 9 Priority: 3 going to coffee shop.
+     [java] Name: Customer 30 Priority: 3 going to coffee shop.
+     [java] Name: Customer 21 Priority: 3 going to coffee shop.
+     [java] Name: Customer 13 Priority: 3 going to coffee shop.
+     [java] Name: Customer 40 Priority: 3 going to coffee shop.
+     [java] Name: Customer 36 Priority: 3 entered coffee shop.
+     [java] Name: Customer 40 Priority: 3 entered coffee shop.
+     [java] Name: Customer 13 Priority: 3 entered coffee shop.
+     [java] Name: Customer 48 Priority: 3 entered coffee shop.
+     [java] Name: Customer 43 Priority: 3 going to coffee shop.
+     [java] Name: Customer 41 Priority: 3 going to coffee shop.
+     [java] Name: Customer 42 Priority: 3 going to coffee shop.
+     [java] Name: Customer 43 Priority: 3 entered coffee shop.
+     [java] Name: Customer 4 Priority: 3 going to coffee shop.
+     [java] Name: Customer 3 Priority: 3 going to coffee shop.
+     [java] Name: Customer 52 Priority: 3 going to coffee shop.
+     [java] Name: Customer 14 Priority: 3 going to coffee shop.
+     [java] Name: Customer 33 Priority: 3 going to coffee shop.
+     [java] Name: Customer 2 Priority: 3 going to coffee shop.
+     [java] Name: Customer 5 Priority: 3 going to coffee shop.
+     [java] Name: Customer 10 Priority: 3 going to coffee shop.
+     [java] Name: Customer 24 Priority: 3 going to coffee shop.
+     [java] Name: Customer 6 Priority: 3 going to coffee shop.
+     [java] Name: Customer 23 Priority: 3 going to coffee shop.
+     [java] Name: Customer 53 Priority: 3 going to coffee shop.
+     [java] Name: Customer 26 Priority: 3 going to coffee shop.
+     [java] Name: Customer 25 Priority: 3 going to coffee shop.
+     [java] Name: Customer 39 Priority: 3 going to coffee shop.
+     [java] Name: Customer 8 Priority: 3 going to coffee shop.
+     [java] Name: Customer 16 Priority: 3 going to coffee shop.
+     [java] Name: Customer 19 Priority: 3 going to coffee shop.
+     [java] Name: Customer 27 Priority: 3 going to coffee shop.
+     [java] Name: Customer 11 Priority: 3 going to coffee shop.
+     [java] Name: Customer 29 Priority: 3 going to coffee shop.
+     [java] Name: Customer 1 Priority: 3 going to coffee shop.
+     [java] Name: Customer 7 Priority: 3 going to coffee shop.
+     [java] Name: Customer 54 Priority: 3 going to coffee shop.
+     [java] Name: Customer 55 Priority: 3 going to coffee shop.
+     [java] Name: Customer 56 Priority: 3 going to coffee shop.
+     [java] Name: Customer 57 Priority: 3 going to coffee shop.
+     [java] Name: Customer 58 Priority: 3 going to coffee shop.
+     [java] Name: Customer 59 Priority: 3 going to coffee shop.
+     [java] Name: Customer 60 Priority: 3 going to coffee shop.
+     [java] Name: Customer 61 Priority: 3 going to coffee shop.
+     [java] Name: Customer 62 Priority: 3 going to coffee shop.
+     [java] Name: Customer 63 Priority: 3 going to coffee shop.
+     [java] Name: Customer 64 Priority: 3 going to coffee shop.
+     [java] Name: Customer 65 Priority: 3 going to coffee shop.
+     [java] Name: Customer 36 Priority: 3 placing order 36 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 starting order 36 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 43 Priority: 3 placing order 43 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 48 Priority: 3 placing order 48 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 13 Priority: 3 placing order 13 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 40 Priority: 3 placing order 40 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 starting order 43 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 67 Priority: 3 going to coffee shop.
+     [java] Name: Customer 68 Priority: 3 going to coffee shop.
+     [java] Name: Customer 66 Priority: 3 going to coffee shop.
+     [java] Name: Customer 69 Priority: 3 going to coffee shop.
+     [java] Name: Customer 70 Priority: 3 going to coffee shop.
+     [java] Name: Customer 72 Priority: 3 going to coffee shop.
+     [java] Name: Customer 73 Priority: 3 going to coffee shop.
+     [java] Name: Customer 74 Priority: 3 going to coffee shop.
+     [java] Name: Customer 71 Priority: 3 going to coffee shop.
+     [java] Name: Customer 75 Priority: 3 going to coffee shop.
+     [java] Name: Customer 76 Priority: 3 going to coffee shop.
+     [java] Name: Customer 77 Priority: 3 going to coffee shop.
+     [java] Name: Customer 78 Priority: 3 going to coffee shop.
+     [java] Name: Customer 79 Priority: 3 going to coffee shop.
+     [java] Name: Customer 81 Priority: 3 going to coffee shop.
+     [java] Name: Customer 82 Priority: 3 going to coffee shop.
+     [java] Name: Customer 83 Priority: 3 going to coffee shop.
+     [java] Name: Customer 84 Priority: 3 going to coffee shop.
+     [java] Name: Customer 85 Priority: 3 going to coffee shop.
+     [java] Name: Customer 86 Priority: 3 going to coffee shop.
+     [java] Name: Customer 80 Priority: 3 going to coffee shop.
+     [java] Name: Customer 88 Priority: 3 going to coffee shop.
+     [java] Name: Customer 89 Priority: 3 going to coffee shop.
+     [java] Name: Customer 90 Priority: 3 going to coffee shop.
+     [java] Name: Customer 87 Priority: 3 going to coffee shop.
+     [java] Name: Customer 91 Priority: 3 going to coffee shop.
+     [java] Name: Customer 93 Priority: 3 going to coffee shop.
+     [java] Name: Customer 92 Priority: 3 going to coffee shop.
+     [java] Name: Customer 94 Priority: 3 going to coffee shop.
+     [java] Name: Customer 95 Priority: 3 going to coffee shop.
+     [java] Name: Customer 97 Priority: 3 going to coffee shop.
+     [java] Name: Customer 96 Priority: 3 going to coffee shop.
+     [java] Name: Customer 98 Priority: 3 going to coffee shop.
+     [java] Name: Customer 99 Priority: 3 going to coffee shop.
+     [java] Cook: 1 cooking burger for order 36
+     [java] Cook: 0 cooking burger for order 43
+     [java] Name: Customer 100 Priority: 3 going to coffee shop.
+     [java] burger starting up for making burger; 4.
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 0 cooking fries for order 43
+     [java] fries starting up for making fries; 4.
+     [java] Cook: 0 cooking fries for order 43
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 43
+     [java] fries cooking fries.
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 1 cooking fries for order 36
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 36
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 43
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 1 cooking coffee for order 36
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 36
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 43
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 36
+     [java] coffee completed coffee.
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 43
+     [java] Cook: 1 finished coffee for order 36
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 43
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 43
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 36
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 36
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 43
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 36
+     [java] Cook: 1 completed order 36
+     [java] Cook: 1 starting order 40 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 40
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 40
+     [java] Cook: 0 completed order 43
+     [java] fries starting up for making fries; 4.
+     [java] Name: Customer 36 Priority: 3 received order 36 [burger, fries, fries, coffee, coffee]
+     [java] burger cooking burger.
+     [java] Name: Customer 43 Priority: 3 received order 43 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking fries for order 40
+     [java] fries starting up for making fries; 4.
+     [java] Cook: 0 starting order 13 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 13
+     [java] burger starting up for making burger; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 40
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 40
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking fries for order 13
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking fries for order 13
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 13
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 13
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 36 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 4 Priority: 3 entered coffee shop.
+     [java] Name: Customer 4 Priority: 3 placing order 4 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 40
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 40
+     [java] Name: Customer 43 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 100 Priority: 3 entered coffee shop.
+     [java] Name: Customer 100 Priority: 3 placing order 100 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 13
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 13
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 40
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 40
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 13
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 13
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 40
+     [java] Cook: 1 completed order 40
+     [java] Cook: 1 starting order 48 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 40 Priority: 3 received order 40 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 48
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 48
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 48
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 48
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 48
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 13
+     [java] Cook: 0 completed order 13
+     [java] Cook: 0 starting order 100 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 13 Priority: 3 received order 13 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 100
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 0 cooking fries for order 100
+     [java] burger cooking burger.
+     [java] fries starting up for making fries; 4.
+     [java] Cook: 0 cooking fries for order 100
+     [java] fries cooking fries.
+     [java] fries starting up for making fries; 4.
+     [java] Cook: 0 cooking coffee for order 100
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 100
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 40 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 3 Priority: 3 entered coffee shop.
+     [java] Name: Customer 3 Priority: 3 placing order 3 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 48
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 48
+     [java] Name: Customer 13 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 99 Priority: 3 entered coffee shop.
+     [java] Name: Customer 99 Priority: 3 placing order 99 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 100
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 100
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 48
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 48
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 100
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 100
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 48
+     [java] Cook: 1 completed order 48
+     [java] Cook: 1 starting order 4 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 48 Priority: 3 received order 48 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 4
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 4
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 4
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 4
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 100
+     [java] Cook: 0 completed order 100
+     [java] Cook: 0 starting order 99 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 99
+     [java] burger starting up for making burger; 4.
+     [java] Name: Customer 100 Priority: 3 received order 100 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking coffee for order 4
+     [java] coffee cooking coffee.
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 cooking fries for order 99
+     [java] burger cooking burger.
+     [java] fries starting up for making fries; 4.
+     [java] coffee cooking coffee.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking fries for order 99
+     [java] fries starting up for making fries; 4.
+     [java] Cook: 0 cooking coffee for order 99
+     [java] fries cooking fries.
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 cooking coffee for order 99
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 48 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 17 Priority: 3 entered coffee shop.
+     [java] Name: Customer 17 Priority: 3 placing order 17 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 100 Priority: 3 leaving coffee shop.
+     [java] coffee completed coffee.
+     [java] Name: Customer 98 Priority: 3 entered coffee shop.
+     [java] Cook: 1 finished coffee for order 4
+     [java] Name: Customer 98 Priority: 3 placing order 98 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 4
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 99
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 99
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 4
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 4
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 99
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 99
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 4
+     [java] Cook: 1 completed order 4
+     [java] Cook: 1 starting order 3 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 4 Priority: 3 received order 4 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 3
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 3
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 3
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 3
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 3
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 99
+     [java] Cook: 0 completed order 99
+     [java] Cook: 0 starting order 98 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 99 Priority: 3 received order 99 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 98
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 0 cooking fries for order 98
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking fries for order 98
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 98
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking coffee for order 98
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 4 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 42 Priority: 3 entered coffee shop.
+     [java] Name: Customer 42 Priority: 3 placing order 42 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 3
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 3
+     [java] Name: Customer 99 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 96 Priority: 3 entered coffee shop.
+     [java] Name: Customer 96 Priority: 3 placing order 96 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 98
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 98
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 3
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 3
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 98
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 98
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 3
+     [java] Cook: 1 completed order 3
+     [java] Cook: 1 starting order 17 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 17
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 17
+     [java] fries starting up for making fries; 4.
+     [java] Name: Customer 3 Priority: 3 received order 3 [burger, fries, fries, coffee, coffee]
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 17
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 17
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 17
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 98
+     [java] Cook: 0 completed order 98
+     [java] Cook: 0 starting order 96 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 98 Priority: 3 received order 98 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 96
+     [java] burger starting up for making burger; 4.
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking fries for order 96
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking fries for order 96
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 96
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 96
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 3 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 41 Priority: 3 entered coffee shop.
+     [java] Name: Customer 41 Priority: 3 placing order 41 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 17
+     [java] Name: Customer 98 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 97 Priority: 3 entered coffee shop.
+     [java] Name: Customer 97 Priority: 3 placing order 97 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 17
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 96
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 96
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 17
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 17
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 96
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 96
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 17
+     [java] Cook: 1 completed order 17
+     [java] Name: Customer 17 Priority: 3 received order 17 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 starting order 42 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 42
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 42
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 42
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 42
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 42
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 96
+     [java] Cook: 0 completed order 96
+     [java] Cook: 0 starting order 97 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 97
+     [java] burger starting up for making burger; 4.
+     [java] Name: Customer 96 Priority: 3 received order 96 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking fries for order 97
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking fries for order 97
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 97
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 97
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 17 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 44 Priority: 3 entered coffee shop.
+     [java] Name: Customer 44 Priority: 3 placing order 44 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 42
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 42
+     [java] Name: Customer 96 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 95 Priority: 3 entered coffee shop.
+     [java] Name: Customer 95 Priority: 3 placing order 95 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 97
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 97
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 42
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 42
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 97
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 97
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 42
+     [java] Cook: 1 completed order 42
+     [java] Cook: 1 starting order 41 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 42 Priority: 3 received order 42 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 41
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 41
+     [java] fries starting up for making fries; 4.
+     [java] Cook: 1 cooking fries for order 41
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 41
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 41
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 97
+     [java] Cook: 0 completed order 97
+     [java] Cook: 0 starting order 95 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 97 Priority: 3 received order 97 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 95
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 0 cooking fries for order 95
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking fries for order 95
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 95
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 95
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] coffee completed coffee.
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 41
+     [java] Cook: 1 finished coffee for order 41
+     [java] Name: Customer 42 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 51 Priority: 3 entered coffee shop.
+     [java] coffee completed coffee.
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 95
+     [java] Cook: 0 finished coffee for order 95
+     [java] Name: Customer 51 Priority: 3 placing order 51 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 97 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 94 Priority: 3 entered coffee shop.
+     [java] Name: Customer 94 Priority: 3 placing order 94 [burger, fries, fries, coffee, coffee]
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 41
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 41
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 95
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 95
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 41
+     [java] Cook: 1 completed order 41
+     [java] Cook: 1 starting order 44 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 41 Priority: 3 received order 41 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 44
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 44
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 44
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 44
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 44
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 95
+     [java] Cook: 0 completed order 95
+     [java] Cook: 0 starting order 94 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 95 Priority: 3 received order 95 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 94
+     [java] burger starting up for making burger; 4.
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking fries for order 94
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking fries for order 94
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 94
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 94
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 41 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 14 Priority: 3 entered coffee shop.
+     [java] Name: Customer 14 Priority: 3 placing order 14 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 44
+     [java] Name: Customer 95 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 15 Priority: 3 entered coffee shop.
+     [java] Name: Customer 15 Priority: 3 placing order 15 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 44
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 94
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 94
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 44
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 44
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 94
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 94
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 44
+     [java] Cook: 1 completed order 44
+     [java] Cook: 1 starting order 51 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 51
+     [java] Name: Customer 44 Priority: 3 received order 44 [burger, fries, fries, coffee, coffee]
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 51
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 51
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 51
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 94
+     [java] Cook: 1 cooking coffee for order 51
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 completed order 94
+     [java] Cook: 0 starting order 15 [burger, fries, fries, coffee, coffee]
+     [java] coffee cooking coffee.
+     [java] Name: Customer 94 Priority: 3 received order 94 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 15
+     [java] burger starting up for making burger; 4.
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking fries for order 15
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking fries for order 15
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 15
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 15
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 44 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 35 Priority: 3 entered coffee shop.
+     [java] Name: Customer 35 Priority: 3 placing order 35 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Name: Customer 94 Priority: 3 leaving coffee shop.
+     [java] Cook: 1 finished coffee for order 51
+     [java] Name: Customer 38 Priority: 3 entered coffee shop.
+     [java] Name: Customer 38 Priority: 3 placing order 38 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 51
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 15
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 15
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 51
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 51
+     [java] fries completed fries.
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 15
+     [java] Cook: 0 finished fries for order 15
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 51
+     [java] Cook: 1 completed order 51
+     [java] Cook: 1 starting order 14 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 51 Priority: 3 received order 51 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 14
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 14
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 14
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 14
+     [java] coffee starting up for making coffee; 4.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 15
+     [java] fries cooking fries.
+     [java] Cook: 0 completed order 15
+     [java] Cook: 1 cooking coffee for order 14
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 starting order 38 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 38
+     [java] burger starting up for making burger; 4.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 15 Priority: 3 received order 15 [burger, fries, fries, coffee, coffee]
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking fries for order 38
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking fries for order 38
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 38
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 38
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 51 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 52 Priority: 3 entered coffee shop.
+     [java] Name: Customer 52 Priority: 3 placing order 52 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 14
+     [java] Name: Customer 15 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 34 Priority: 3 entered coffee shop.
+     [java] Name: Customer 34 Priority: 3 placing order 34 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 14
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 38
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 38
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 14
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 14
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 38
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 38
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 14
+     [java] Cook: 1 completed order 14
+     [java] Cook: 1 starting order 35 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 14 Priority: 3 received order 14 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 35
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 35
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 35
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 35
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 35
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 38
+     [java] Cook: 0 completed order 38
+     [java] Cook: 0 starting order 34 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 38 Priority: 3 received order 38 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 34
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 0 cooking fries for order 34
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking fries for order 34
+     [java] fries starting up for making fries; 4.
+     [java] Cook: 0 cooking coffee for order 34
+     [java] fries cooking fries.
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 34
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 14 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 47 Priority: 3 entered coffee shop.
+     [java] Name: Customer 47 Priority: 3 placing order 47 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 35
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 35
+     [java] Name: Customer 38 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 59 Priority: 3 entered coffee shop.
+     [java] Name: Customer 59 Priority: 3 placing order 59 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 34
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 34
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 35
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 35
+     [java] fries completed fries.
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 34
+     [java] Cook: 0 finished fries for order 34
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 35
+     [java] Cook: 1 completed order 35
+     [java] Cook: 1 starting order 52 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 35 Priority: 3 received order 35 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 52
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 52
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 52
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 52
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 52
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 34
+     [java] Cook: 0 completed order 34
+     [java] Cook: 0 starting order 59 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 34 Priority: 3 received order 34 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 59
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 0 cooking fries for order 59
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking fries for order 59
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 59
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 59
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 35 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 58 Priority: 3 entered coffee shop.
+     [java] Name: Customer 58 Priority: 3 placing order 58 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 52
+     [java] Cook: 1 finished coffee for order 52
+     [java] Name: Customer 34 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 7 Priority: 3 entered coffee shop.
+     [java] Name: Customer 7 Priority: 3 placing order 7 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 59
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 59
+     [java] fries completed fries.
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 52
+     [java] Cook: 1 finished fries for order 52
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 59
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 59
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 52
+     [java] Cook: 1 completed order 52
+     [java] Cook: 1 starting order 47 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 52 Priority: 3 received order 52 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 47
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 47
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 47
+     [java] fries starting up for making fries; 4.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 59
+     [java] Cook: 1 cooking coffee for order 47
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 completed order 59
+     [java] Cook: 0 starting order 7 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 7
+     [java] Cook: 1 cooking coffee for order 47
+     [java] burger starting up for making burger; 4.
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 cooking fries for order 7
+     [java] fries starting up for making fries; 4.
+     [java] Name: Customer 59 Priority: 3 received order 59 [burger, fries, fries, coffee, coffee]
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking fries for order 7
+     [java] fries starting up for making fries; 4.
+     [java] coffee cooking coffee.
+     [java] fries cooking fries.
+     [java] fries cooking fries.
+     [java] burger cooking burger.
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking coffee for order 7
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 7
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 52 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 1 Priority: 3 entered coffee shop.
+     [java] Name: Customer 1 Priority: 3 placing order 1 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 59 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 92 Priority: 3 entered coffee shop.
+     [java] Name: Customer 92 Priority: 3 placing order 92 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 47
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 47
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 7
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 7
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 47
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 47
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 7
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 7
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 47
+     [java] Cook: 1 completed order 47
+     [java] Name: Customer 47 Priority: 3 received order 47 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 starting order 58 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 58
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 58
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 58
+     [java] fries starting up for making fries; 4.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 7
+     [java] Cook: 1 cooking coffee for order 58
+     [java] fries cooking fries.
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 completed order 7
+     [java] fries cooking fries.
+     [java] Cook: 0 starting order 92 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 7 Priority: 3 received order 7 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 92
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking coffee for order 58
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking fries for order 92
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking fries for order 92
+     [java] fries starting up for making fries; 4.
+     [java] coffee cooking coffee.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 92
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 92
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 47 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 28 Priority: 3 entered coffee shop.
+     [java] Name: Customer 28 Priority: 3 placing order 28 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 7 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 10 Priority: 3 entered coffee shop.
+     [java] Name: Customer 10 Priority: 3 placing order 10 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 58
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 58
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 92
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 92
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 58
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 58
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 92
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 92
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 58
+     [java] Cook: 1 completed order 58
+     [java] Cook: 1 starting order 1 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 58 Priority: 3 received order 58 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 1
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 1
+     [java] fries starting up for making fries; 4.
+     [java] Cook: 1 cooking fries for order 1
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking coffee for order 1
+     [java] fries cooking fries.
+     [java] coffee starting up for making coffee; 4.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 92
+     [java] Cook: 0 completed order 92
+     [java] Cook: 0 starting order 10 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 10
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking coffee for order 1
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 92 Priority: 3 received order 92 [burger, fries, fries, coffee, coffee]
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking fries for order 10
+     [java] fries starting up for making fries; 4.
+     [java] Cook: 0 cooking fries for order 10
+     [java] burger cooking burger.
+     [java] fries starting up for making fries; 4.
+     [java] Cook: 0 cooking coffee for order 10
+     [java] fries cooking fries.
+     [java] coffee cooking coffee.
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 10
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 58 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 24 Priority: 3 entered coffee shop.
+     [java] Name: Customer 24 Priority: 3 placing order 24 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 1
+     [java] Name: Customer 92 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 93 Priority: 3 entered coffee shop.
+     [java] Name: Customer 93 Priority: 3 placing order 93 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 1
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 10
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 10
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 1
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 1
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 10
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 10
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 1
+     [java] Cook: 1 completed order 1
+     [java] Cook: 1 starting order 28 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 1 Priority: 3 received order 1 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 28
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 28
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 28
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 28
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 28
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 10
+     [java] coffee cooking coffee.
+     [java] Cook: 0 completed order 10
+     [java] Cook: 0 starting order 93 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 10 Priority: 3 received order 10 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 93
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 0 cooking fries for order 93
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking fries for order 93
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 93
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 93
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 1 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 6 Priority: 3 entered coffee shop.
+     [java] Name: Customer 6 Priority: 3 placing order 6 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 28
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 28
+     [java] Name: Customer 10 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 70 Priority: 3 entered coffee shop.
+     [java] Name: Customer 70 Priority: 3 placing order 70 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 93
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 93
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 28
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 28
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 93
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 93
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 28
+     [java] Cook: 1 completed order 28
+     [java] Cook: 1 starting order 24 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 28 Priority: 3 received order 28 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 24
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 24
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 24
+     [java] fries starting up for making fries; 4.
+     [java] Cook: 1 cooking coffee for order 24
+     [java] fries cooking fries.
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 24
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 93
+     [java] Cook: 0 completed order 93
+     [java] Cook: 0 starting order 70 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 70
+     [java] coffee cooking coffee.
+     [java] burger starting up for making burger; 4.
+     [java] Name: Customer 93 Priority: 3 received order 93 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking fries for order 70
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking fries for order 70
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 70
+     [java] fries cooking fries.
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 cooking coffee for order 70
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 28 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 69 Priority: 3 entered coffee shop.
+     [java] Name: Customer 69 Priority: 3 placing order 69 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 24
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 24
+     [java] Name: Customer 93 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 91 Priority: 3 entered coffee shop.
+     [java] Name: Customer 91 Priority: 3 placing order 91 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 70
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 70
+     [java] fries completed fries.
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 24
+     [java] Cook: 1 finished fries for order 24
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 70
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 70
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 24
+     [java] Cook: 1 completed order 24
+     [java] Cook: 1 starting order 6 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 24 Priority: 3 received order 24 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 6
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 6
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 6
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] burger completed burger.
+     [java] Cook: 1 cooking coffee for order 6
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 finished burger for order 70
+     [java] fries cooking fries.
+     [java] Cook: 0 completed order 70
+     [java] Cook: 0 starting order 91 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 91
+     [java] burger starting up for making burger; 4.
+     [java] Name: Customer 70 Priority: 3 received order 70 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking coffee for order 6
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking fries for order 91
+     [java] burger cooking burger.
+     [java] fries starting up for making fries; 4.
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking fries for order 91
+     [java] fries cooking fries.
+     [java] fries starting up for making fries; 4.
+     [java] Cook: 0 cooking coffee for order 91
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 cooking coffee for order 91
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 24 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 66 Priority: 3 entered coffee shop.
+     [java] Name: Customer 66 Priority: 3 placing order 66 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 70 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 61 Priority: 3 entered coffee shop.
+     [java] Name: Customer 61 Priority: 3 placing order 61 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 6
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 6
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 91
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 91
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 6
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 6
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 91
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 91
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 6
+     [java] Cook: 1 completed order 6
+     [java] Cook: 1 starting order 69 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 69
+     [java] Name: Customer 6 Priority: 3 received order 6 [burger, fries, fries, coffee, coffee]
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 69
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 69
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 69
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 69
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 91
+     [java] coffee cooking coffee.
+     [java] Cook: 0 completed order 91
+     [java] Cook: 0 starting order 61 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 91 Priority: 3 received order 91 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 61
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 0 cooking fries for order 61
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking fries for order 61
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 61
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 cooking coffee for order 61
+     [java] fries cooking fries.
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 6 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 62 Priority: 3 entered coffee shop.
+     [java] Name: Customer 62 Priority: 3 placing order 62 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 69
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 69
+     [java] Name: Customer 91 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 50 Priority: 3 entered coffee shop.
+     [java] Name: Customer 50 Priority: 3 placing order 50 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 61
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 61
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 69
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 69
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 61
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 61
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 69
+     [java] Cook: 1 completed order 69
+     [java] Cook: 1 starting order 66 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 69 Priority: 3 received order 69 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 66
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 66
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 66
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 66
+     [java] burger completed burger.
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 finished burger for order 61
+     [java] fries cooking fries.
+     [java] Cook: 0 completed order 61
+     [java] Cook: 1 cooking coffee for order 66
+     [java] Name: Customer 61 Priority: 3 received order 61 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 starting order 50 [burger, fries, fries, coffee, coffee]
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 cooking burger for order 50
+     [java] coffee cooking coffee.
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 0 cooking fries for order 50
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking fries for order 50
+     [java] fries starting up for making fries; 4.
+     [java] coffee cooking coffee.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 50
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 50
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 69 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 21 Priority: 3 entered coffee shop.
+     [java] Name: Customer 21 Priority: 3 placing order 21 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 61 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 87 Priority: 3 entered coffee shop.
+     [java] Name: Customer 87 Priority: 3 placing order 87 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 66
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 66
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 50
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 50
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 66
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 66
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 50
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 50
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 66
+     [java] Cook: 1 completed order 66
+     [java] Cook: 1 starting order 62 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 66 Priority: 3 received order 66 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 62
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 62
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 62
+     [java] fries starting up for making fries; 4.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 50
+     [java] fries cooking fries.
+     [java] Cook: 0 completed order 50
+     [java] Cook: 0 starting order 87 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 50 Priority: 3 received order 50 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 87
+     [java] Cook: 1 cooking coffee for order 62
+     [java] burger starting up for making burger; 4.
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking fries for order 87
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking fries for order 87
+     [java] fries starting up for making fries; 4.
+     [java] Cook: 1 cooking coffee for order 62
+     [java] fries cooking fries.
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 cooking coffee for order 87
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking coffee for order 87
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 66 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 30 Priority: 3 entered coffee shop.
+     [java] Name: Customer 30 Priority: 3 placing order 30 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 50 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 71 Priority: 3 entered coffee shop.
+     [java] Name: Customer 71 Priority: 3 placing order 71 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 62
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 62
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 87
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 87
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 62
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 62
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 87
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 87
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 62
+     [java] Cook: 1 completed order 62
+     [java] Cook: 1 starting order 21 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 62 Priority: 3 received order 62 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 21
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 21
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 21
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 21
+     [java] burger completed burger.
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 finished burger for order 87
+     [java] Cook: 0 completed order 87
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 21
+     [java] Name: Customer 87 Priority: 3 received order 87 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 starting order 71 [burger, fries, fries, coffee, coffee]
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 cooking burger for order 71
+     [java] burger starting up for making burger; 4.
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking fries for order 71
+     [java] coffee cooking coffee.
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking fries for order 71
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 71
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 71
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 62 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 74 Priority: 3 entered coffee shop.
+     [java] Name: Customer 74 Priority: 3 placing order 74 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 87 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 32 Priority: 3 entered coffee shop.
+     [java] coffee completed coffee.
+     [java] Name: Customer 32 Priority: 3 placing order 32 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 finished coffee for order 21
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 21
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 71
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 71
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 21
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 21
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 71
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 71
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 21
+     [java] Cook: 1 completed order 21
+     [java] Name: Customer 21 Priority: 3 received order 21 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 starting order 30 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 30
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 30
+     [java] fries starting up for making fries; 4.
+     [java] burger completed burger.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 30
+     [java] Cook: 0 finished burger for order 71
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 completed order 71
+     [java] Cook: 0 starting order 32 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 71 Priority: 3 received order 71 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 32
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking coffee for order 30
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking fries for order 32
+     [java] fries starting up for making fries; 4.
+     [java] Cook: 1 cooking coffee for order 30
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 cooking fries for order 32
+     [java] fries starting up for making fries; 4.
+     [java] coffee cooking coffee.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking coffee for order 32
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 cooking coffee for order 32
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] fries cooking fries.
+     [java] fries cooking fries.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 21 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 60 Priority: 3 entered coffee shop.
+     [java] Name: Customer 60 Priority: 3 placing order 60 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 71 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 90 Priority: 3 entered coffee shop.
+     [java] Name: Customer 90 Priority: 3 placing order 90 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 30
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 30
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 32
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 32
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 30
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 30
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 32
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 32
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 30
+     [java] Cook: 1 completed order 30
+     [java] Cook: 1 starting order 74 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 30 Priority: 3 received order 30 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 74
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 74
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 74
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 74
+     [java] burger completed burger.
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 finished burger for order 32
+     [java] fries cooking fries.
+     [java] Cook: 0 completed order 32
+     [java] Cook: 0 starting order 90 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking coffee for order 74
+     [java] Cook: 0 cooking burger for order 90
+     [java] coffee starting up for making coffee; 4.
+     [java] burger starting up for making burger; 4.
+     [java] Name: Customer 32 Priority: 3 received order 32 [burger, fries, fries, coffee, coffee]
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking fries for order 90
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking fries for order 90
+     [java] coffee cooking coffee.
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 90
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 90
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 30 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 68 Priority: 3 entered coffee shop.
+     [java] Name: Customer 68 Priority: 3 placing order 68 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 32 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 12 Priority: 3 entered coffee shop.
+     [java] coffee completed coffee.
+     [java] Name: Customer 12 Priority: 3 placing order 12 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 finished coffee for order 74
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 74
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 90
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 90
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 74
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 74
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 90
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 90
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 74
+     [java] Cook: 1 completed order 74
+     [java] Name: Customer 74 Priority: 3 received order 74 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 starting order 60 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 60
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 60
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 60
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 60
+     [java] coffee starting up for making coffee; 4.
+     [java] burger completed burger.
+     [java] fries cooking fries.
+     [java] Cook: 0 finished burger for order 90
+     [java] Cook: 0 completed order 90
+     [java] Cook: 1 cooking coffee for order 60
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 starting order 12 [burger, fries, fries, coffee, coffee]
+     [java] coffee cooking coffee.
+     [java] Name: Customer 90 Priority: 3 received order 90 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 12
+     [java] burger starting up for making burger; 4.
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking fries for order 12
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking fries for order 12
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 12
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 12
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 74 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 73 Priority: 3 entered coffee shop.
+     [java] Name: Customer 73 Priority: 3 placing order 73 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 60
+     [java] Name: Customer 90 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 54 Priority: 3 entered coffee shop.
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 60
+     [java] Name: Customer 54 Priority: 3 placing order 54 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 12
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 12
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 60
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 60
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 12
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 12
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 60
+     [java] Cook: 1 completed order 60
+     [java] Cook: 1 starting order 68 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 68
+     [java] Name: Customer 60 Priority: 3 received order 60 [burger, fries, fries, coffee, coffee]
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 68
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 68
+     [java] burger completed burger.
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 finished burger for order 12
+     [java] Cook: 1 cooking coffee for order 68
+     [java] Cook: 0 completed order 12
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 starting order 54 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 12 Priority: 3 received order 12 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 54
+     [java] Cook: 1 cooking coffee for order 68
+     [java] burger starting up for making burger; 4.
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking fries for order 54
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking fries for order 54
+     [java] fries starting up for making fries; 4.
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking coffee for order 54
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 54
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 60 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 45 Priority: 3 entered coffee shop.
+     [java] Name: Customer 45 Priority: 3 placing order 45 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 12 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 49 Priority: 3 entered coffee shop.
+     [java] Name: Customer 49 Priority: 3 placing order 49 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 68
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 68
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 54
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 54
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 68
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 68
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 54
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 54
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 68
+     [java] Cook: 1 completed order 68
+     [java] Cook: 1 starting order 73 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 68 Priority: 3 received order 68 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 73
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 73
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 73
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 54
+     [java] Cook: 1 cooking coffee for order 73
+     [java] Cook: 0 completed order 54
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 starting order 49 [burger, fries, fries, coffee, coffee]
+     [java] fries cooking fries.
+     [java] Name: Customer 54 Priority: 3 received order 54 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 49
+     [java] Cook: 1 cooking coffee for order 73
+     [java] coffee starting up for making coffee; 4.
+     [java] burger starting up for making burger; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking fries for order 49
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking fries for order 49
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 49
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 cooking coffee for order 49
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] fries cooking fries.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 68 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 39 Priority: 3 entered coffee shop.
+     [java] Name: Customer 39 Priority: 3 placing order 39 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 54 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 37 Priority: 3 entered coffee shop.
+     [java] coffee completed coffee.
+     [java] Name: Customer 37 Priority: 3 placing order 37 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 finished coffee for order 73
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 73
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 49
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 49
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 73
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 73
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 49
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 49
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 73
+     [java] Cook: 1 completed order 73
+     [java] Cook: 1 starting order 45 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 73 Priority: 3 received order 73 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 45
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 45
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 45
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 45
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 45
+     [java] coffee starting up for making coffee; 4.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 49
+     [java] coffee cooking coffee.
+     [java] Cook: 0 completed order 49
+     [java] Cook: 0 starting order 37 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 37
+     [java] burger starting up for making burger; 4.
+     [java] Name: Customer 49 Priority: 3 received order 49 [burger, fries, fries, coffee, coffee]
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking fries for order 37
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking fries for order 37
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 37
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 cooking coffee for order 37
+     [java] fries cooking fries.
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 73 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 67 Priority: 3 entered coffee shop.
+     [java] Name: Customer 67 Priority: 3 placing order 67 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 45
+     [java] Name: Customer 49 Priority: 3 leaving coffee shop.
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 45
+     [java] Name: Customer 89 Priority: 3 entered coffee shop.
+     [java] Name: Customer 89 Priority: 3 placing order 89 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 37
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 37
+     [java] fries completed fries.
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 45
+     [java] Cook: 1 finished fries for order 45
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 37
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 37
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 45
+     [java] Cook: 1 completed order 45
+     [java] Cook: 1 starting order 39 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 45 Priority: 3 received order 45 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 39
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 39
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 39
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 39
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 39
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 37
+     [java] Cook: 0 completed order 37
+     [java] coffee cooking coffee.
+     [java] Cook: 0 starting order 89 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 37 Priority: 3 received order 37 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 89
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 0 cooking fries for order 89
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking fries for order 89
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 89
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 cooking coffee for order 89
+     [java] fries cooking fries.
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 45 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 65 Priority: 3 entered coffee shop.
+     [java] Name: Customer 65 Priority: 3 placing order 65 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 39
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 39
+     [java] Name: Customer 37 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 88 Priority: 3 entered coffee shop.
+     [java] Name: Customer 88 Priority: 3 placing order 88 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 89
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 89
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 39
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 39
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 89
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 89
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 39
+     [java] Cook: 1 completed order 39
+     [java] Cook: 1 starting order 67 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 39 Priority: 3 received order 39 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 67
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 67
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 67
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 67
+     [java] coffee starting up for making coffee; 4.
+     [java] burger completed burger.
+     [java] fries cooking fries.
+     [java] Cook: 0 finished burger for order 89
+     [java] Cook: 1 cooking coffee for order 67
+     [java] Cook: 0 completed order 89
+     [java] coffee cooking coffee.
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 starting order 88 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 89 Priority: 3 received order 89 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 88
+     [java] burger starting up for making burger; 4.
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking fries for order 88
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking fries for order 88
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 88
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 88
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 39 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 64 Priority: 3 entered coffee shop.
+     [java] Name: Customer 64 Priority: 3 placing order 64 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 67
+     [java] Name: Customer 89 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 55 Priority: 3 entered coffee shop.
+     [java] coffee completed coffee.
+     [java] Name: Customer 55 Priority: 3 placing order 55 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 finished coffee for order 67
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 88
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 88
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 67
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 67
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 88
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 88
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 67
+     [java] Cook: 1 completed order 67
+     [java] Cook: 1 starting order 65 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 67 Priority: 3 received order 67 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 65
+     [java] burger starting up for making burger; 4.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 88
+     [java] Cook: 1 cooking fries for order 65
+     [java] fries starting up for making fries; 4.
+     [java] Cook: 0 completed order 88
+     [java] Cook: 0 starting order 55 [burger, fries, fries, coffee, coffee]
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking burger for order 55
+     [java] Cook: 1 cooking fries for order 65
+     [java] fries starting up for making fries; 4.
+     [java] Name: Customer 88 Priority: 3 received order 88 [burger, fries, fries, coffee, coffee]
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking coffee for order 65
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking fries for order 55
+     [java] fries starting up for making fries; 4.
+     [java] Cook: 1 cooking coffee for order 65
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking fries for order 55
+     [java] fries starting up for making fries; 4.
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking coffee for order 55
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 cooking coffee for order 55
+     [java] coffee starting up for making coffee; 4.
+     [java] burger cooking burger.
+     [java] coffee cooking coffee.
+     [java] fries cooking fries.
+     [java] coffee cooking coffee.
+     [java] fries cooking fries.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 67 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 56 Priority: 3 entered coffee shop.
+     [java] Name: Customer 56 Priority: 3 placing order 56 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 88 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 9 Priority: 3 entered coffee shop.
+     [java] Name: Customer 9 Priority: 3 placing order 9 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 65
+     [java] Cook: 1 finished coffee for order 65
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 55
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 55
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 65
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 65
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 55
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 55
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 65
+     [java] Cook: 1 completed order 65
+     [java] Name: Customer 65 Priority: 3 received order 65 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 starting order 64 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 64
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 64
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 64
+     [java] fries starting up for making fries; 4.
+     [java] burger completed burger.
+     [java] Cook: 1 cooking coffee for order 64
+     [java] fries cooking fries.
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 finished burger for order 55
+     [java] Cook: 1 cooking coffee for order 64
+     [java] Cook: 0 completed order 55
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 55 Priority: 3 received order 55 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 starting order 9 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 9
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 0 cooking fries for order 9
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking fries for order 9
+     [java] fries starting up for making fries; 4.
+     [java] Cook: 0 cooking coffee for order 9
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 9
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 65 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 31 Priority: 3 entered coffee shop.
+     [java] Name: Customer 31 Priority: 3 placing order 31 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Name: Customer 55 Priority: 3 leaving coffee shop.
+     [java] Cook: 1 finished coffee for order 64
+     [java] Name: Customer 80 Priority: 3 entered coffee shop.
+     [java] Name: Customer 80 Priority: 3 placing order 80 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 64
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 9
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 9
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 64
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 64
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 9
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 9
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 64
+     [java] Cook: 1 completed order 64
+     [java] Cook: 1 starting order 56 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 64 Priority: 3 received order 64 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 56
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 56
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 56
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 56
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 56
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 9
+     [java] Cook: 0 completed order 9
+     [java] Cook: 0 starting order 80 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 80
+     [java] burger starting up for making burger; 4.
+     [java] Name: Customer 9 Priority: 3 received order 9 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking fries for order 80
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking fries for order 80
+     [java] fries starting up for making fries; 4.
+     [java] Cook: 0 cooking coffee for order 80
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 80
+     [java] fries cooking fries.
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 64 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 18 Priority: 3 entered coffee shop.
+     [java] coffee completed coffee.
+     [java] Name: Customer 18 Priority: 3 placing order 18 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 finished coffee for order 56
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 56
+     [java] Name: Customer 9 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 86 Priority: 3 entered coffee shop.
+     [java] Name: Customer 86 Priority: 3 placing order 86 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 80
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 80
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 56
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 56
+     [java] fries completed fries.
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 80
+     [java] Cook: 0 finished fries for order 80
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 56
+     [java] Cook: 1 completed order 56
+     [java] Cook: 1 starting order 31 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 31
+     [java] Name: Customer 56 Priority: 3 received order 56 [burger, fries, fries, coffee, coffee]
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 31
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 31
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 31
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 31
+     [java] coffee starting up for making coffee; 4.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 80
+     [java] Cook: 0 completed order 80
+     [java] Cook: 0 starting order 86 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 86
+     [java] Name: Customer 80 Priority: 3 received order 80 [burger, fries, fries, coffee, coffee]
+     [java] burger starting up for making burger; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking fries for order 86
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking fries for order 86
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 86
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 86
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 56 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 20 Priority: 3 entered coffee shop.
+     [java] Name: Customer 20 Priority: 3 placing order 20 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 80 Priority: 3 leaving coffee shop.
+     [java] coffee completed coffee.
+     [java] Name: Customer 85 Priority: 3 entered coffee shop.
+     [java] Cook: 1 finished coffee for order 31
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 31
+     [java] Name: Customer 85 Priority: 3 placing order 85 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 86
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 86
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 31
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 31
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 86
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 86
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 31
+     [java] Cook: 1 completed order 31
+     [java] Cook: 1 starting order 18 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 31 Priority: 3 received order 31 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 18
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 18
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 18
+     [java] fries starting up for making fries; 4.
+     [java] Cook: 1 cooking coffee for order 18
+     [java] fries cooking fries.
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 18
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 86
+     [java] Cook: 0 completed order 86
+     [java] Cook: 0 starting order 85 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 86 Priority: 3 received order 86 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 85
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 0 cooking fries for order 85
+     [java] fries starting up for making fries; 4.
+     [java] Cook: 0 cooking fries for order 85
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 85
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 85
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 31 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 8 Priority: 3 entered coffee shop.
+     [java] Name: Customer 8 Priority: 3 placing order 8 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 18
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 18
+     [java] Name: Customer 86 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 84 Priority: 3 entered coffee shop.
+     [java] Name: Customer 84 Priority: 3 placing order 84 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 85
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 85
+     [java] fries completed fries.
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 18
+     [java] Cook: 1 finished fries for order 18
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 85
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 85
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 18
+     [java] Cook: 1 completed order 18
+     [java] Cook: 1 starting order 20 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 18 Priority: 3 received order 18 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 20
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 20
+     [java] fries starting up for making fries; 4.
+     [java] Cook: 1 cooking fries for order 20
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 20
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 20
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 85
+     [java] Cook: 0 completed order 85
+     [java] coffee cooking coffee.
+     [java] Cook: 0 starting order 84 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 85 Priority: 3 received order 85 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 84
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 0 cooking fries for order 84
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking fries for order 84
+     [java] fries starting up for making fries; 4.
+     [java] Cook: 0 cooking coffee for order 84
+     [java] fries cooking fries.
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 84
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 18 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 16 Priority: 3 entered coffee shop.
+     [java] Name: Customer 16 Priority: 3 placing order 16 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 20
+     [java] coffee completed coffee.
+     [java] Name: Customer 85 Priority: 3 leaving coffee shop.
+     [java] Cook: 1 finished coffee for order 20
+     [java] Name: Customer 83 Priority: 3 entered coffee shop.
+     [java] Name: Customer 83 Priority: 3 placing order 83 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 84
+     [java] Cook: 0 finished coffee for order 84
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 20
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 20
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 84
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 84
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 20
+     [java] Cook: 1 completed order 20
+     [java] Cook: 1 starting order 8 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 20 Priority: 3 received order 20 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 8
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 8
+     [java] fries starting up for making fries; 4.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 84
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 8
+     [java] fries starting up for making fries; 4.
+     [java] Cook: 0 completed order 84
+     [java] fries cooking fries.
+     [java] Cook: 0 starting order 83 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 83
+     [java] Name: Customer 84 Priority: 3 received order 84 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking coffee for order 8
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 8
+     [java] burger starting up for making burger; 4.
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking fries for order 83
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking fries for order 83
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 83
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 83
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 20 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 19 Priority: 3 entered coffee shop.
+     [java] Name: Customer 19 Priority: 3 placing order 19 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 84 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 82 Priority: 3 entered coffee shop.
+     [java] Name: Customer 82 Priority: 3 placing order 82 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 8
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 8
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 83
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 83
+     [java] fries completed fries.
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 8
+     [java] Cook: 1 finished fries for order 8
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 83
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 83
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 8
+     [java] Cook: 1 completed order 8
+     [java] Cook: 1 starting order 16 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 8 Priority: 3 received order 8 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 16
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 16
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 16
+     [java] fries starting up for making fries; 4.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 83
+     [java] fries cooking fries.
+     [java] Cook: 0 completed order 83
+     [java] Cook: 0 starting order 82 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 82
+     [java] burger starting up for making burger; 4.
+     [java] Name: Customer 83 Priority: 3 received order 83 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking coffee for order 16
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 cooking fries for order 82
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 16
+     [java] coffee starting up for making coffee; 4.
+     [java] burger cooking burger.
+     [java] fries starting up for making fries; 4.
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking fries for order 82
+     [java] fries starting up for making fries; 4.
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking coffee for order 82
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 82
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 8 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 27 Priority: 3 entered coffee shop.
+     [java] Name: Customer 27 Priority: 3 placing order 27 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 83 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 81 Priority: 3 entered coffee shop.
+     [java] Name: Customer 81 Priority: 3 placing order 81 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 16
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 16
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 82
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 82
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 16
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 16
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 82
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 82
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 16
+     [java] Cook: 1 completed order 16
+     [java] Cook: 1 starting order 19 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 16 Priority: 3 received order 16 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 19
+     [java] burger starting up for making burger; 4.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 82
+     [java] Cook: 0 completed order 82
+     [java] Cook: 0 starting order 81 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking fries for order 19
+     [java] Name: Customer 82 Priority: 3 received order 82 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 81
+     [java] burger starting up for making burger; 4.
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking fries for order 81
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 19
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking fries for order 81
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 19
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 81
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 19
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking coffee for order 81
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 16 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 11 Priority: 3 entered coffee shop.
+     [java] Name: Customer 11 Priority: 3 placing order 11 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 82 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 77 Priority: 3 entered coffee shop.
+     [java] Name: Customer 77 Priority: 3 placing order 77 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 19
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 81
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 81
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 19
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 19
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 81
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 19
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 81
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 19
+     [java] burger completed burger.
+     [java] Cook: 1 completed order 19
+     [java] Cook: 0 finished burger for order 81
+     [java] Cook: 1 starting order 27 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 27
+     [java] Cook: 0 completed order 81
+     [java] Name: Customer 19 Priority: 3 received order 19 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 starting order 77 [burger, fries, fries, coffee, coffee]
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 0 cooking burger for order 77
+     [java] burger starting up for making burger; 4.
+     [java] Name: Customer 81 Priority: 3 received order 81 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking fries for order 27
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking fries for order 77
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking fries for order 27
+     [java] fries starting up for making fries; 4.
+     [java] Cook: 0 cooking fries for order 77
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 27
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 cooking coffee for order 77
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 27
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking coffee for order 77
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 19 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 76 Priority: 3 entered coffee shop.
+     [java] Name: Customer 81 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 76 Priority: 3 placing order 76 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 79 Priority: 3 entered coffee shop.
+     [java] Name: Customer 79 Priority: 3 placing order 79 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 27
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 77
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 27
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 77
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 27
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 77
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 27
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 77
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 27
+     [java] Cook: 1 completed order 27
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 77
+     [java] Cook: 1 starting order 11 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 27 Priority: 3 received order 27 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 completed order 77
+     [java] Cook: 1 cooking burger for order 11
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 0 starting order 79 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 79
+     [java] burger starting up for making burger; 4.
+     [java] Name: Customer 77 Priority: 3 received order 77 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking fries for order 11
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking fries for order 79
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 11
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking fries for order 79
+     [java] fries starting up for making fries; 4.
+     [java] Cook: 1 cooking coffee for order 11
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 79
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 11
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 79
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 27 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 78 Priority: 3 entered coffee shop.
+     [java] Name: Customer 78 Priority: 3 placing order 78 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 77 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 75 Priority: 3 entered coffee shop.
+     [java] Name: Customer 75 Priority: 3 placing order 75 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 11
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 79
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 11
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 79
+     [java] fries completed fries.
+     [java] fries completed fries.
+     [java] fries completed fries.
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 11
+     [java] Cook: 0 finished fries for order 79
+     [java] Cook: 1 finished fries for order 11
+     [java] Cook: 0 finished fries for order 79
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 11
+     [java] Cook: 1 completed order 11
+     [java] Cook: 1 starting order 76 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 11 Priority: 3 received order 11 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 76
+     [java] burger starting up for making burger; 4.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 79
+     [java] Cook: 0 completed order 79
+     [java] Cook: 0 starting order 75 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking fries for order 76
+     [java] Cook: 0 cooking burger for order 75
+     [java] fries starting up for making fries; 4.
+     [java] burger starting up for making burger; 4.
+     [java] Name: Customer 79 Priority: 3 received order 79 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking fries for order 76
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking coffee for order 76
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 76
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking fries for order 75
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking fries for order 75
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 75
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 75
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 11 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 29 Priority: 3 entered coffee shop.
+     [java] Name: Customer 79 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 57 Priority: 3 entered coffee shop.
+     [java] Name: Customer 29 Priority: 3 placing order 29 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 57 Priority: 3 placing order 57 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 76
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 76
+     [java] coffee completed coffee.
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 75
+     [java] Cook: 0 finished coffee for order 75
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 76
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 76
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 75
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 75
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 76
+     [java] Cook: 1 completed order 76
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 75
+     [java] Cook: 1 starting order 78 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 78
+     [java] burger starting up for making burger; 4.
+     [java] Name: Customer 76 Priority: 3 received order 76 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 completed order 75
+     [java] Cook: 0 starting order 57 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 57
+     [java] burger starting up for making burger; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 78
+     [java] fries starting up for making fries; 4.
+     [java] Name: Customer 75 Priority: 3 received order 75 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking fries for order 57
+     [java] fries starting up for making fries; 4.
+     [java] Cook: 1 cooking fries for order 78
+     [java] fries starting up for making fries; 4.
+     [java] Cook: 0 cooking fries for order 57
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 78
+     [java] fries cooking fries.
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 cooking coffee for order 57
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 1 cooking coffee for order 78
+     [java] coffee starting up for making coffee; 4.
+     [java] burger cooking burger.
+     [java] fries cooking fries.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 57
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 76 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 63 Priority: 3 entered coffee shop.
+     [java] Name: Customer 63 Priority: 3 placing order 63 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 75 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 5 Priority: 3 entered coffee shop.
+     [java] Name: Customer 5 Priority: 3 placing order 5 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 57
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 78
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 78
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 57
+     [java] fries completed fries.
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 57
+     [java] Cook: 1 finished fries for order 78
+     [java] fries completed fries.
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 78
+     [java] Cook: 0 finished fries for order 57
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 78
+     [java] Cook: 1 completed order 78
+     [java] Cook: 1 starting order 29 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 29
+     [java] burger starting up for making burger; 4.
+     [java] Name: Customer 78 Priority: 3 received order 78 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking fries for order 29
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 29
+     [java] fries starting up for making fries; 4.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 57
+     [java] Cook: 0 completed order 57
+     [java] fries cooking fries.
+     [java] Cook: 0 starting order 5 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking coffee for order 29
+     [java] Cook: 0 cooking burger for order 5
+     [java] coffee starting up for making coffee; 4.
+     [java] burger starting up for making burger; 4.
+     [java] fries cooking fries.
+     [java] Name: Customer 57 Priority: 3 received order 57 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking fries for order 5
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking fries for order 5
+     [java] fries starting up for making fries; 4.
+     [java] Cook: 1 cooking coffee for order 29
+     [java] Cook: 0 cooking coffee for order 5
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] coffee cooking coffee.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 5
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 78 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 72 Priority: 3 entered coffee shop.
+     [java] Name: Customer 72 Priority: 3 placing order 72 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 57 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 2 Priority: 3 entered coffee shop.
+     [java] Name: Customer 2 Priority: 3 placing order 2 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 29
+     [java] coffee completed coffee.
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 5
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 5
+     [java] Cook: 1 finished coffee for order 29
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 29
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 29
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 5
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 5
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 29
+     [java] Cook: 1 completed order 29
+     [java] Cook: 1 starting order 63 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 63
+     [java] burger starting up for making burger; 4.
+     [java] Name: Customer 29 Priority: 3 received order 29 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking fries for order 63
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 5
+     [java] Cook: 0 completed order 5
+     [java] Cook: 1 cooking fries for order 63
+     [java] Cook: 0 starting order 2 [burger, fries, fries, coffee, coffee]
+     [java] fries starting up for making fries; 4.
+     [java] Cook: 0 cooking burger for order 2
+     [java] burger starting up for making burger; 4.
+     [java] Name: Customer 5 Priority: 3 received order 5 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking coffee for order 63
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 cooking fries for order 2
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 63
+     [java] burger cooking burger.
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking fries for order 2
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking coffee for order 2
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 2
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 29 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 23 Priority: 3 entered coffee shop.
+     [java] Name: Customer 23 Priority: 3 placing order 23 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 5 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 33 Priority: 3 entered coffee shop.
+     [java] Name: Customer 33 Priority: 3 placing order 33 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 63
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 63
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 2
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 2
+     [java] fries completed fries.
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 63
+     [java] Cook: 1 finished fries for order 63
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 2
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 2
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 63
+     [java] Cook: 1 completed order 63
+     [java] Cook: 1 starting order 72 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 63 Priority: 3 received order 63 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 72
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 72
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 2
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking fries for order 72
+     [java] fries starting up for making fries; 4.
+     [java] Cook: 0 completed order 2
+     [java] Cook: 0 starting order 33 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 2 Priority: 3 received order 2 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 33
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking coffee for order 72
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking fries for order 33
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking coffee for order 72
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 cooking fries for order 33
+     [java] fries starting up for making fries; 4.
+     [java] coffee cooking coffee.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 33
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking coffee for order 33
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] fries cooking fries.
+     [java] Name: Customer 63 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 53 Priority: 3 entered coffee shop.
+     [java] Name: Customer 53 Priority: 3 placing order 53 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 2 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 46 Priority: 3 entered coffee shop.
+     [java] Name: Customer 46 Priority: 3 placing order 46 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 72
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 72
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 33
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 33
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 72
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 72
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 33
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 33
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 72
+     [java] Cook: 1 completed order 72
+     [java] Cook: 1 starting order 23 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 72 Priority: 3 received order 72 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 23
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 23
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 23
+     [java] burger completed burger.
+     [java] fries starting up for making fries; 4.
+     [java] Cook: 0 finished burger for order 33
+     [java] fries cooking fries.
+     [java] Cook: 0 completed order 33
+     [java] Cook: 0 starting order 46 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 33 Priority: 3 received order 33 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking coffee for order 23
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 cooking burger for order 46
+     [java] burger starting up for making burger; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 23
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking fries for order 46
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] coffee cooking coffee.
+     [java] Cook: 0 cooking fries for order 46
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 46
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 46
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 72 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 26 Priority: 3 entered coffee shop.
+     [java] Name: Customer 26 Priority: 3 placing order 26 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 33 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 22 Priority: 3 entered coffee shop.
+     [java] Name: Customer 22 Priority: 3 placing order 22 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 23
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 23
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 46
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 46
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 23
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 23
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 46
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 46
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 23
+     [java] Cook: 1 completed order 23
+     [java] Cook: 1 starting order 53 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 23 Priority: 3 received order 23 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 53
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 53
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 53
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 53
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 53
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 46
+     [java] coffee cooking coffee.
+     [java] Cook: 0 completed order 46
+     [java] Cook: 0 starting order 22 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 22
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 0 cooking fries for order 22
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Name: Customer 46 Priority: 3 received order 46 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking fries for order 22
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 22
+     [java] coffee starting up for making coffee; 4.
+     [java] Cook: 0 cooking coffee for order 22
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 23 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 25 Priority: 3 entered coffee shop.
+     [java] Name: Customer 25 Priority: 3 placing order 25 [burger, fries, fries, coffee, coffee]
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 53
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 53
+     [java] Name: Customer 46 Priority: 3 leaving coffee shop.
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 22
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 22
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 53
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 53
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 22
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 22
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 53
+     [java] Cook: 1 completed order 53
+     [java] Cook: 1 starting order 26 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 53 Priority: 3 received order 53 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 1 cooking burger for order 26
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 1 cooking fries for order 26
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 1 cooking fries for order 26
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 26
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 1 cooking coffee for order 26
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 22
+     [java] Cook: 0 completed order 22
+     [java] Cook: 0 starting order 25 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 22 Priority: 3 received order 22 [burger, fries, fries, coffee, coffee]
+     [java] Cook: 0 cooking burger for order 25
+     [java] burger starting up for making burger; 4.
+     [java] Cook: 0 cooking fries for order 25
+     [java] fries starting up for making fries; 4.
+     [java] burger cooking burger.
+     [java] Cook: 0 cooking fries for order 25
+     [java] fries starting up for making fries; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 25
+     [java] coffee starting up for making coffee; 4.
+     [java] fries cooking fries.
+     [java] Cook: 0 cooking coffee for order 25
+     [java] coffee starting up for making coffee; 4.
+     [java] coffee cooking coffee.
+     [java] coffee cooking coffee.
+     [java] Name: Customer 53 Priority: 3 leaving coffee shop.
+     [java] coffee completed coffee.
+     [java] coffee completed coffee.
+     [java] Cook: 1 finished coffee for order 26
+     [java] Cook: 1 finished coffee for order 26
+     [java] Name: Customer 22 Priority: 3 leaving coffee shop.
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 25
+     [java] coffee completed coffee.
+     [java] Cook: 0 finished coffee for order 25
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 26
+     [java] fries completed fries.
+     [java] Cook: 1 finished fries for order 26
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 25
+     [java] fries completed fries.
+     [java] Cook: 0 finished fries for order 25
+     [java] burger completed burger.
+     [java] Cook: 1 finished burger for order 26
+     [java] Cook: 1 completed order 26
+     [java] Name: Customer 26 Priority: 3 received order 26 [burger, fries, fries, coffee, coffee]
+     [java] burger completed burger.
+     [java] Cook: 0 finished burger for order 25
+     [java] Cook: 0 completed order 25
+     [java] Name: Customer 25 Priority: 3 received order 25 [burger, fries, fries, coffee, coffee]
+     [java] Name: Customer 26 Priority: 3 leaving coffee shop.
+     [java] Name: Customer 25 Priority: 3 leaving coffee shop.
+     [java] Cook: 1 going home for the night.
+     [java] Cook: 0 going home for the night.
+     [java] burger shutting down.
+     [java] fries shutting down.
+     [java] coffee shutting down.
+     [java] Simulation ended.
+     [java] ----------------------------------------------------------------------------------------
+     [java] Did it work? true
+
+main:
+
+BUILD SUCCESSFUL
+Total time: 27 seconds
