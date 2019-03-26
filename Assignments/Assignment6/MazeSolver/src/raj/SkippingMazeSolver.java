@@ -54,7 +54,10 @@ public abstract class SkippingMazeSolver extends MazeSolver
         at = at.move(go_to);
         do
         {
-            if (at.equals(maze.getEnd())) throw new SolutionFound(at, go_to.reverse());
+            if (at.equals(maze.getEnd()))
+            { System.out.println("End found : "+ at);
+                throw new SolutionFound(at, go_to.reverse());
+            }
             if (at.equals(maze.getStart())) throw new SolutionFound(at, go_to.reverse());
             choices = maze.getMoves(at);
             choices.remove(came_from);

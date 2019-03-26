@@ -60,6 +60,7 @@ public class STMazeSolverDFS extends SkippingMazeSolver
         }
         catch (SolutionFound e)
         {
+
             Iterator<Choice> iter = choiceStack.iterator();
             LinkedList<Direction> solutionPath = new LinkedList<Direction>();
             while (iter.hasNext())
