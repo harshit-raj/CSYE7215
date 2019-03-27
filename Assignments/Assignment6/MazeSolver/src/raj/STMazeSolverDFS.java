@@ -70,6 +70,9 @@ public class STMazeSolverDFS extends SkippingMazeSolver
             }
 
             if (maze.display != null) maze.display.updateDisplay();
+//            System.out.println("Size for dfs : "+ solutionPath.size());
+           // solutionPath.forEach(direction -> System.out.print(direction+" || "));
+//            System.out.println("--------------------------------------------------");
             return pathToFullPath(solutionPath);
         }
     }

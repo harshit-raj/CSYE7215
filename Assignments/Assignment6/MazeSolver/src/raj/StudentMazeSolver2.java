@@ -28,6 +28,7 @@ public class StudentMazeSolver2 extends SkippingMazeSolver
 
 
 
+
     public List<Direction> solve()
     {
 
@@ -46,7 +47,9 @@ public class StudentMazeSolver2 extends SkippingMazeSolver
         List<Direction> result = pool.invoke(new DFSSolver(start));
         pool.shutdown();
         if (maze.display != null) maze.display.updateDisplay();
-        return result;
+//        System.out.println("Size "+ result.size());
+        //result.forEach(direction -> System.out.print(direction+" || "));
+        return pathToFullPath(result);
 
 
 
@@ -70,20 +73,26 @@ public class StudentMazeSolver2 extends SkippingMazeSolver
 //                //System.out.println("Deadend at "+ ch.at);
 //                return null;
 //            }
+            List<Direction> directionList = new ArrayList<>();
             if(!ch.isDeadend()){
                 List<DFSSolver> subtasks = new ArrayList<>();
                for(Direction direction: ch.choices){
                    try{
+                       //System.out.println("At: "+ ch.at+ "Going: "+ direction);
+
                        subtasks.add(new DFSSolver(follow(ch.at,direction)));
                    }catch (SolutionFound e){
-                       System.out.println("Maze end at: "+ e.pos);
+                       //System.out.println("Maze end at: "+ e.pos);
                        List<Direction> result= new LinkedList<>();
                        //result.add(direction);
                        //result.add(direction);
 
-
+                        //System.out.println("Sol at "+ e.pos);
                        result.add(e.from.reverse());
                        result.add(ch.from.reverse());
+                       //System.out.println(e.from.reverse());
+                       //System.out.println(ch.from.reverse());
+                       //System.out.println("Returning last result from "+ ch.at);
                        return result;
 //                       System.out.println("End from : "+ ch.from);
 //                       System.out.println("Direction: "+ d);
@@ -103,28 +112,35 @@ public class StudentMazeSolver2 extends SkippingMazeSolver
 //
 //               directionList.add(ch.from);
 
-                List<Direction> directionList;
+//                List<Direction> directionList;
 
                for(DFSSolver solver : subtasks){
                    directionList= solver.compute();
                    if(directionList != null){
-                       System.out.println("From: "+ ch.from);
+                       //System.out.println("From: "+ ch.from);
                        if(ch.from != null){
+//                           directionList.forEach(direction -> System.out.print(direction+" || "));
+//                           System.out.println();
+//                           System.out.println(ch.from.reverse());
+
+
                            directionList.add(ch.from.reverse());
                        }
-
+//                       System.out.println("return dir at "+ ch.at);
                        return directionList;
                    }
+
                }
 
-               System.out.println("retuning null at: "+ ch.at);
+//               System.out.println("retuning null after loop: "+ (directionList == null)+ " "+ ch.at);
 
 
-               return null;
+
 
 
 
             }
+//            System.out.println("Dead end"+ ch.at);
 
             return null;
 
@@ -144,3 +160,4 @@ public class StudentMazeSolver2 extends SkippingMazeSolver
 
 
 }
+

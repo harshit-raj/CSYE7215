@@ -31,10 +31,12 @@ public class Main
         MazeSolver[] solvers =
         {
         		//new STMazeSolverRec(maze),
-                //new STMazeSolverDFS(maze),
+               // new STMazeSolverDFS(maze),
                 //new STMazeSolverBFS(maze),
                 //new StudentMTMazeSolver(maze),  //uncomment this line when you are ready to test yours
-                new StudentMazeSolver2(maze),
+//                new StudentMTMazeSolver3(maze),  //uncomment this line when you are ready to test yours
+//                new StudentMazeSolver2(maze),
+                new StudentMTMazeSolvern(maze),
         };
 
         for (MazeSolver solver : solvers)
@@ -57,10 +59,10 @@ public class Main
             }
             else
             {
-                System.out.println("Solution ----");
-                for(Direction d: soln){
-                    System.out.println(d);
-                }
+//                System.out.println("Solution ----");
+//                for(Direction d: soln){
+//                    System.out.println(d);
+//                }
                 if (maze.checkSolution(soln)) System.out.println("Correct solution found in " + sec + " seconds.");
                 else System.out.println("Incorrect solution found.");
             }
@@ -84,7 +86,7 @@ public class Main
  
         //These lines are to run via Eclipse without a command prompt
         String mazeLocationNotInProjectFolder = "mazes1/"; //replace this with your maze directory
-        String whichMazeToUse = "6x6.mz"; //which maze file to load
+        String whichMazeToUse = "200x200.mz"; //which maze file to load
         String[] replaceArgs = {mazeLocationNotInProjectFolder+whichMazeToUse};
         args = replaceArgs;
         
