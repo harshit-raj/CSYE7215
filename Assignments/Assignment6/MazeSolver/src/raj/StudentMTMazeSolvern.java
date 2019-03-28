@@ -1,20 +1,25 @@
 package raj;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveAction;
+import java.util.concurrent.RecursiveTask;
 
 public class StudentMTMazeSolvern extends SkippingMazeSolver{
     List<Direction> solution;
     private ForkJoinPool forkJoinPool;
     RecursiveAction task;
     volatile int choiceCount;
+    Boolean large;
 
     public StudentMTMazeSolvern(Maze maze)
     {
         super(maze);
+        large = maze.getHeight()*maze.getWidth() > 999999;
+        //System.out.println("Height: "+ maze.getHeight()+" Width: "+maze.getWidth());
     }
 
     @SuppressWarnings("serial")
@@ -22,6 +27,7 @@ public class StudentMTMazeSolvern extends SkippingMazeSolver{
 
         Choice rootChoice;
         Direction comingFrom;
+
 
         public DFSTask(Choice rootChoice, Direction comingFrom) {
             this.rootChoice = rootChoice;
@@ -67,26 +73,43 @@ public class StudentMTMazeSolvern extends SkippingMazeSolver{
     @SuppressWarnings("unchecked")
     public List<Direction> solve()
     {
+        List<RecursiveAction> DFSTaskList = new ArrayList<>();
         int size =0;
         forkJoinPool = new ForkJoinPool();
         try{
             Choice begin = firstChoice(maze.getStart());
             size = begin.choices.size();
-            for(int i = 0; i< size; i++){
-                Choice curr = follow(begin.at, begin.choices.peek());
-                task = new DFSTask(curr,begin.choices.pop());
-                forkJoinPool.execute(task);
-                task.join();
+            if(large){
+                for(int i = 0; i< size; i++){
+                    Choice curr = follow(begin.at, begin.choices.peek());
+                    task = new DFSTask(curr,begin.choices.pop());
+                    DFSTaskList.add(task);
+                    forkJoinPool.execute(task);
+                    //task.join();
+                }
+                DFSTaskList.forEach(RecursiveAction::join);
+                forkJoinPool.shutdown();
             }
+            else{
+                for(int i = 0; i< size; i++){
+                    Choice curr = follow(begin.at, begin.choices.peek());
+                    task = new DFSTask(curr,begin.choices.pop());
+                    DFSTaskList.add(task);
+                    forkJoinPool.execute(task);
+                    task.join();
+                }
+                forkJoinPool.shutdown();
 
+            }
 
         }catch(SolutionFound s){
 
 
 
         }
-//        System.out.println("Choice count : "+ (choiceCount+size));
-        forkJoinPool.shutdown();
+
+        System.out.println("Choice count : "+ (choiceCount+size));
+
 //        markPath(solution,1);
         if(maze.display != null) maze.display.updateDisplay();
         if(solution != null){

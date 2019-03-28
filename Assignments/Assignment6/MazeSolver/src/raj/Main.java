@@ -33,9 +33,11 @@ public class Main
         		//new STMazeSolverRec(maze),
                 new STMazeSolverDFS(maze),
 //                new STMazeSolverBFS(maze),
-                //new StudentMTMazeSolver(maze),  //uncomment this line when you are ready to test yours
+
 //                new StudentMTMazeSolver3(maze),  //uncomment this line when you are ready to test yours
 //                new StudentMazeSolver2(maze),
+
+                new StudentMTMazeSolver(maze),  //uncomment this line when you are ready to test yours
                 new StudentMTMazeSolvern(maze),
         };
 
@@ -86,7 +88,7 @@ public class Main
  
         //These lines are to run via Eclipse without a command prompt
         String mazeLocationNotInProjectFolder = "mazes1/"; //replace this with your maze directory
-        String whichMazeToUse = "200x200u.mz"; //which maze file to load
+        String whichMazeToUse = "10000x10000u.mz"; //which maze file to load
         String[] replaceArgs = {mazeLocationNotInProjectFolder+whichMazeToUse};
         args = replaceArgs;
         

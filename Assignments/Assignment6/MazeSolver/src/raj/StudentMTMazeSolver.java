@@ -1,88 +1,102 @@
 package raj;
 
+import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveAction;
 
-/**
- * This file needs to hold your solver to be tested. 
- * You can alter the class to extend any class that extends MazeSolver.
- * It must have a constructor that takes in a Maze.
- * It must have the solve() method that returns the datatype List<Direction>
- *   which will either be a reference to a list of steps to take or will
- *   be null if the maze cannot be solved.
- */
-public class StudentMTMazeSolver extends SkippingMazeSolver
-{
+public class StudentMTMazeSolver extends SkippingMazeSolver{
+    List<Direction> solution;
+    private ForkJoinPool forkJoinPool;
+    RecursiveAction task;
+    volatile int choiceCount;
+
     public StudentMTMazeSolver(Maze maze)
     {
         super(maze);
     }
-    static ForkJoinPool pool = new ForkJoinPool();
+
+    @SuppressWarnings("serial")
+    private class DFSTask extends RecursiveAction {
+
+        Choice rootChoice;
+        Direction comingFrom;
+
+        public DFSTask(Choice rootChoice, Direction comingFrom) {
+            this.rootChoice = rootChoice;
+            this.comingFrom = comingFrom;
+        }
+
+
+        public void compute () {
+            LinkedList<Choice> choiceStack = new LinkedList<Choice>();
+
+            Choice currentChoice;
+            try{
+                choiceStack.push(this.rootChoice);
+                while(!choiceStack.isEmpty()){
+                    currentChoice = choiceStack.peek();
+                    if(currentChoice.isDeadend()){
+                        choiceStack.pop();
+                        if(!choiceStack.isEmpty()) choiceStack.peek().choices.pop();
+                        continue;
+
+                    }
+                    choiceCount++;
+                    choiceStack.push(follow(currentChoice.at, currentChoice.choices.peek()));
+                }
+
+            }catch(SolutionFound s){
+                Iterator<Choice> iter = choiceStack.iterator();
+                LinkedList<Direction> solutionPath = new LinkedList<Direction>();
+                while (iter.hasNext()){
+                    currentChoice = iter.next();
+                    solutionPath.push(currentChoice.choices.peek());
+                }
+                solutionPath.push(comingFrom);
+                solution = solutionPath;
+            }
+        }
+
+
+    }
 
 
 
+    @SuppressWarnings("unchecked")
     public List<Direction> solve()
     {
-
-
-
-
-        // TODO: Implement your code here
-
-        Choice start = new Choice(
-                maze.getStart(),
-                null,
-                maze.getMoves(
-                        maze.getStart()
-                )
-        );
-        pool.invoke(new DFSSolver(start));
-        pool.shutdown();
-        return null;
-
-
-
-       // throw new RuntimeException("Not yet implemented!");
-    }
-
-
-    class DFSSolver extends RecursiveAction{
-        Choice ch;
-
-        DFSSolver(Choice ch){
-
-            this.ch = ch;
-            System.out.println("Visiting :"+ ch.at);
-        }
-
-
-        @Override
-        protected void compute() {
-            if(ch.isDeadend()){
-                //System.out.println("Deadend at "+ ch.at);
-            }
-            else{
-                for(Direction d: ch.choices){
-                try{
-
-                        new DFSSolver(follow(ch.at,d)).compute();
-
-                }catch (SolutionFound e){
-                    System.out.println("Maze end at: "+ ch.at);
-                    System.out.println("End from : "+ ch.from);
-                    System.out.println("Direction: "+ d);
-                    break;
-
-                }
-                }
-
+        int size =0;
+        forkJoinPool = new ForkJoinPool();
+        try{
+            Choice begin = firstChoice(maze.getStart());
+            size = begin.choices.size();
+            for(int i = 0; i< size; i++){
+                Choice curr = follow(begin.at, begin.choices.peek());
+                task = new DFSTask(curr,begin.choices.pop());
+                forkJoinPool.execute(task);
+                task.join();
             }
 
 
+        }catch(SolutionFound s){
+
+
+
         }
+        System.out.println("Choice count : "+ (choiceCount+size));
+        forkJoinPool.shutdown();
+//        markPath(solution,1);
+        if(maze.display != null) maze.display.updateDisplay();
+        if(solution != null){
+            return pathToFullPath(solution);
+        }
+        else{
+            return  null;
+        }
+
+
     }
-
-
 
 }
