@@ -89,7 +89,7 @@ public class StudentMTMazeSolver3 extends SkippingMazeSolver
                 }catch (SolutionFound e){
 //                    System.out.println("Maze end at: "+ ch.at);
 //                    System.out.println("End from : "+ ch.from);
-//                    System.out.println("Direction: "+ d);
+//                    System.out.println("Direction: "+ comingFrom);
                     dirList.add(e.from.reverse());
                     dirList.add(ch.from.reverse());
                     break;

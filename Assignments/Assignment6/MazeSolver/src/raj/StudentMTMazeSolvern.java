@@ -21,11 +21,11 @@ public class StudentMTMazeSolvern extends SkippingMazeSolver{
     private class DFSTask extends RecursiveAction {
 
         Choice rootChoice;
-        Direction d;
+        Direction comingFrom;
 
-        public DFSTask(Choice rootChoice, Direction d) {
+        public DFSTask(Choice rootChoice, Direction comingFrom) {
             this.rootChoice = rootChoice;
-            this.d = d;
+            this.comingFrom = comingFrom;
         }
 
 
@@ -54,8 +54,7 @@ public class StudentMTMazeSolvern extends SkippingMazeSolver{
                     currentChoice = iter.next();
                     solutionPath.push(currentChoice.choices.peek());
                 }
-                solutionPath.push(d);
-                if(maze.display != null) maze.display.updateDisplay();
+                solutionPath.push(comingFrom);
                 solution = solutionPath;
             }
         }
@@ -86,9 +85,18 @@ public class StudentMTMazeSolvern extends SkippingMazeSolver{
 
 
         }
-        System.out.println("Choice count : "+ (choiceCount+size));
+//        System.out.println("Choice count : "+ (choiceCount+size));
         forkJoinPool.shutdown();
-        return pathToFullPath(solution);
+//        markPath(solution,1);
+        if(maze.display != null) maze.display.updateDisplay();
+        if(solution != null){
+            return pathToFullPath(solution);
+        }
+        else{
+            return  null;
+        }
+
+
     }
 
 }

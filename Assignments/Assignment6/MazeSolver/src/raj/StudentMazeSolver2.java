@@ -95,7 +95,7 @@ public class StudentMazeSolver2 extends SkippingMazeSolver
                        //System.out.println("Returning last result from "+ ch.at);
                        return result;
 //                       System.out.println("End from : "+ ch.from);
-//                       System.out.println("Direction: "+ d);
+//                       System.out.println("Direction: "+ comingFrom);
 
 
                    }
