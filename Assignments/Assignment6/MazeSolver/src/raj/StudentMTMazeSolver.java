@@ -8,19 +8,18 @@ import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveAction;
 import java.util.concurrent.RecursiveTask;
 
-public class StudentMTMazeSolver extends SkippingMazeSolver{
+public class StudentMTMazeSolver extends SkippingMazeSolver {
     List<Direction> solution;
     private ForkJoinPool forkJoinPool;
     RecursiveAction task;
     volatile int choiceCount;
     Boolean large;
-    Boolean showChoiceCount = true;
+    Boolean showChoiceCount = false;
 
-    public StudentMTMazeSolver(Maze maze)
-    {
+    public StudentMTMazeSolver(Maze maze) {
         super(maze);
-        large = maze.getHeight()*maze.getWidth() > 999999;
-        //System.out.println("Height: "+ maze.getHeight()+" Width: "+maze.getWidth());
+        large = maze.getHeight() * maze.getWidth() > 999999;
+        // System.out.println("Height: "+ maze.getHeight()+" Width: "+maze.getWidth());
     }
 
     @SuppressWarnings("serial")
@@ -29,24 +28,23 @@ public class StudentMTMazeSolver extends SkippingMazeSolver{
         Choice rootChoice;
         Direction comingFrom;
 
-
         public DFSTask(Choice rootChoice, Direction comingFrom) {
             this.rootChoice = rootChoice;
             this.comingFrom = comingFrom;
         }
 
-
-        public void compute () {
+        public void compute() {
             LinkedList<Choice> choiceStack = new LinkedList<Choice>();
 
             Choice currentChoice;
-            try{
+            try {
                 choiceStack.push(this.rootChoice);
-                while(!choiceStack.isEmpty()){
+                while (!choiceStack.isEmpty()) {
                     currentChoice = choiceStack.peek();
-                    if(currentChoice.isDeadend()){
+                    if (currentChoice.isDeadend()) {
                         choiceStack.pop();
-                        if(!choiceStack.isEmpty()) choiceStack.peek().choices.pop();
+                        if (!choiceStack.isEmpty())
+                            choiceStack.peek().choices.pop();
                         continue;
 
                     }
@@ -54,10 +52,10 @@ public class StudentMTMazeSolver extends SkippingMazeSolver{
                     choiceStack.push(follow(currentChoice.at, currentChoice.choices.peek()));
                 }
 
-            }catch(SolutionFound s){
+            } catch (SolutionFound s) {
                 Iterator<Choice> iter = choiceStack.iterator();
                 LinkedList<Direction> solutionPath = new LinkedList<Direction>();
-                while (iter.hasNext()){
+                while (iter.hasNext()) {
                     currentChoice = iter.next();
                     solutionPath.push(currentChoice.choices.peek());
                 }
@@ -66,35 +64,30 @@ public class StudentMTMazeSolver extends SkippingMazeSolver{
             }
         }
 
-
     }
 
-
-
     @SuppressWarnings("unchecked")
-    public List<Direction> solve()
-    {
+    public List<Direction> solve() {
         List<RecursiveAction> DFSTaskList = new ArrayList<>();
-        int size =0;
+        int size = 0;
         forkJoinPool = new ForkJoinPool();
-        try{
+        try {
             Choice begin = firstChoice(maze.getStart());
             size = begin.choices.size();
-            if(large){
-                for(int i = 0; i< size; i++){
+            if (large) {
+                for (int i = 0; i < size; i++) {
                     Choice curr = follow(begin.at, begin.choices.peek());
-                    task = new DFSTask(curr,begin.choices.pop());
+                    task = new DFSTask(curr, begin.choices.pop());
                     DFSTaskList.add(task);
                     forkJoinPool.execute(task);
-                    //task.join();
+                    // task.join();
                 }
                 DFSTaskList.forEach(RecursiveAction::join);
                 forkJoinPool.shutdown();
-            }
-            else{
-                for(int i = 0; i< size; i++){
+            } else {
+                for (int i = 0; i < size; i++) {
                     Choice curr = follow(begin.at, begin.choices.peek());
-                    task = new DFSTask(curr,begin.choices.pop());
+                    task = new DFSTask(curr, begin.choices.pop());
                     DFSTaskList.add(task);
                     forkJoinPool.execute(task);
                     task.join();
@@ -103,28 +96,23 @@ public class StudentMTMazeSolver extends SkippingMazeSolver{
 
             }
 
-        }catch(SolutionFound s){
-
-
+        } catch (SolutionFound s) {
 
         }
-        if(showChoiceCount){
-            System.out.println("Choice count : "+ (choiceCount+size));
+        if (showChoiceCount) {
+            System.out.println("Choice count : " + (choiceCount + size));
         }
 
+        if (solution != null) {
 
-        if(solution != null){
-
-            if(maze.display != null){
+            if (maze.display != null) {
                 maze.display.updateDisplay();
-                markPath(solution,1);
+                markPath(solution, 1);
             }
             return pathToFullPath(solution);
+        } else {
+            return null;
         }
-        else{
-            return  null;
-        }
-
 
     }
 
