@@ -13,7 +13,37 @@ package raj;
  *
  */
 public class Messages {
-	
-	//Messages defined here
+	double[][] cityMatrix;
+	double maxLength;
+	int city;
 
+    public Messages(double[][] cityMatrix, double maxLength, int city) {
+        this.cityMatrix = cityMatrix;
+        this.maxLength = maxLength;
+        this.city = city;
+    }
+
+    public double[][] getCityMatrix() {
+        return cityMatrix;
+    }
+
+    public void setCityMatrix(double[][] cityMatrix) {
+        this.cityMatrix = cityMatrix;
+    }
+
+    public double getMaxLength() {
+        return maxLength;
+    }
+
+    public void setMaxLength(double maxLength) {
+        this.maxLength = maxLength;
+    }
+
+    public int getCity() {
+        return city;
+    }
+
+    public void setCity(int city) {
+        this.city = city;
+    }
 }
