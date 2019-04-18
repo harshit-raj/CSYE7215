@@ -24,16 +24,20 @@ public class SearcherC extends UntypedActor {
 			String m = (String)msg;
 			if(m.equals("Winner")){
 				if(sender().equals(getSelf())){
-					System.out.println("I am the champion "+ getSelf().path().name() + " "+ solutionMessage);
+					System.out.println("I Won "+ getSelf().path().name() + " "+ solutionMessage);
+				}
+				else if(sender().equals(getContext().system().deadLetters())){
+					System.out.println("There are no winners "+getSelf().path().name() + " "+ solutionMessage);
+
 				}
 				else{
-					System.out.println("I am looser "+ getSelf().path().name() + " "+ solutionMessage+" Winner is: "+ getSender().path().name());
+					System.out.println("I lost "+ getSelf().path().name() + " "+ solutionMessage+" Winner is: "+ getSender().path().name());
 //					System.out.println("Winner is: "+ getSender().getClass().getName());
 				}
 
 				getContext().parent().tell(new PoisonMessage(),getSelf());
-				getContext().stop(self());
 
+				getContext().stop(self());
 			}
 
 			//getContext().stop(self());
@@ -45,7 +49,13 @@ public class SearcherC extends UntypedActor {
 		 Messages messages = (Messages)msg;
 		 TspDynamicProgrammingRecursive tspSolver = new TspDynamicProgrammingRecursive(messages.city,messages.cityMatrix);
 
-		 solutionMessage = new SolutionMessage(tspSolver.getTourCost(),tspSolver.getTour());
+		 if(tspSolver.getTourCost() > ((Messages) msg).getMaxLength()){
+			 solutionMessage = new SolutionMessage(false,tspSolver.getTourCost(),tspSolver.getTour());
+		 }else{
+			 solutionMessage = new SolutionMessage(true,tspSolver.getTourCost(),tspSolver.getTour());
+		 }
+
+
 
 		 getSender().tell(solutionMessage,getSelf());
 

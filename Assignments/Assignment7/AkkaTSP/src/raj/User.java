@@ -5,6 +5,7 @@ import akka.actor.ActorSystem;
 import akka.actor.Props;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 /**
  * Main class for your estimation actor system.
@@ -16,15 +17,32 @@ public class User {
 
 
 	public static void main(String[] args) throws Exception {
+
+		System.out.println("Enter file name for adjacency matrix: ");
+		Scanner scanner = new Scanner(System.in);
+		String fName = scanner.nextLine();
+
+
 		double[][] cityMatrix = null;
 		try {
-			cityMatrix = ReadCities.read("cities.txt");
+			cityMatrix = ReadCities.read(fName);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 
+		System.out.println("Adjacency matrix parsed number of cities: "+cityMatrix.length);
+		System.out.println("Enter starting point[0-"+(cityMatrix.length-1)+"]");
+		int startCity = scanner.nextInt();
+		if (startCity >= cityMatrix.length || startCity<0){
+			throw new Exception("Invalid start city "+ startCity);
+		}
+		System.out.println("Enter upper limit for length: ");
+		double upperLimit = scanner.nextDouble();
+		if(upperLimit <= 0){
+			throw new Exception("Invalid upper limit: "+ upperLimit);
+		}
 
-		Messages messages = new Messages(cityMatrix,500,2);
+		Messages messages = new Messages(cityMatrix,upperLimit,startCity);
 
 		ActorSystem system = ActorSystem.create("EstimationSystem");
 		ActorRef solver = system.actorOf(Props.create(Solver.class));

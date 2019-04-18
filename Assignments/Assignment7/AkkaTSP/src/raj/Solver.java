@@ -14,11 +14,13 @@ import akka.actor.UntypedActor;
  */
 public class Solver extends UntypedActor {
 	int poisonCount = 0;
+	int solRec = 0;
 
-	ActorRef searcherA = getContext().actorOf(Props.create(SearcherA.class));
-	ActorRef searcherB = getContext().actorOf(Props.create(SearcherB.class));
-	ActorRef searcherC = getContext().actorOf(Props.create(SearcherC.class));
-	ActorRef searcherD = getContext().actorOf(Props.create(SearcherD.class));
+
+	ActorRef searcherA = getContext().actorOf(Props.create(SearcherA.class),"SearcherA");
+	ActorRef searcherB = getContext().actorOf(Props.create(SearcherB.class),"SearcherB");
+	ActorRef searcherC = getContext().actorOf(Props.create(SearcherC.class),"SearcherC");
+	ActorRef searcherD = getContext().actorOf(Props.create(SearcherD.class),"SearcherD");
 
 	ActorRef winner = null;
 
@@ -56,23 +58,40 @@ public class Solver extends UntypedActor {
 
 		}
 
-		if(msg instanceof SolutionMessage){
+		if(msg instanceof SolutionMessage)
+		{
+			solRec++;
+
 			SolutionMessage solutionMessage = (SolutionMessage)msg;
-			if(winner ==null){
-				winner = getSender();
-				System.out.println("Got winner: "+getSender().getClass().getName());
-				//getSender().tell("Champion",getSelf());
-				//getContext().stop(winner);
-				searcherA.tell("Winner",winner);
-				searcherB.tell("Winner",winner);
-				searcherC.tell("Winner",winner);
-				searcherD.tell("Winner",winner);
+			if(solutionMessage.isSolutionFound()){
+
+
+				if(winner ==null){
+					winner = getSender();
+					System.out.println("Got winner: "+getSender().getClass().getName());
+					//getSender().tell("Champion",getSelf());
+					//getContext().stop(winner);
+					searcherA.tell("Winner",winner);
+					searcherB.tell("Winner",winner);
+					searcherC.tell("Winner",winner);
+					searcherD.tell("Winner",winner);
+
+				}
+				System.out.println(solutionMessage);
+			}
+			else{
+				System.out.println("Solution exceeds limit ");
+				if(solRec == 4){
+					searcherA.tell("Winner",ActorRef.noSender());
+					searcherB.tell("Winner",ActorRef.noSender());
+					searcherC.tell("Winner",ActorRef.noSender());
+					searcherD.tell("Winner",ActorRef.noSender());
+				}
 
 			}
 
-			System.out.println(solutionMessage);
-//			getContext().stop(searcherA);
-//			getContext().stop(searcherB);
+
+
 		}
 
 		if(msg instanceof PoisonMessage){
@@ -83,5 +102,6 @@ public class Solver extends UntypedActor {
 		}
 
 	}
+
 
 }
