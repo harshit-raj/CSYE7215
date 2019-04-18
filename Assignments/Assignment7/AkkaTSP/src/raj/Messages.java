@@ -9,7 +9,7 @@ package raj;
  * around actors. You are free to add more classes(Messages) that you think is
  * necessary
  * 
- * @author Akash Nagesh and M. Kokar
+ * @author H. Raj
  *
  */
 public class Messages {

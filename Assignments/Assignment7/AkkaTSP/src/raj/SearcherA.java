@@ -7,7 +7,8 @@ import java.util.*;
 /**
  * this actor implements the search for a path that satisfies the project requirements 
  *
- * @author M. Kokar
+ * @author H. Raj
+ *
  *
  */
 public class SearcherA extends UntypedActor {
@@ -65,7 +66,10 @@ public class SearcherA extends UntypedActor {
 
 	}
 
-
+	/**
+	 * The TSPDynamicProgramingRecursive is inspired from
+	 * https://github.com/williamfiset/Algorithms/blob/master/com/williamfiset/algorithms/graphtheory/TspDynamicProgrammingRecursive.java
+	 */
 
 
 	 class TspDynamicProgrammingRecursive {

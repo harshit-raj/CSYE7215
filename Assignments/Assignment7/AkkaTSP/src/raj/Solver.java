@@ -9,7 +9,7 @@ import akka.actor.UntypedActor;
  * {@code ActorSystem} This actor creates 4 child actors
  * {@code SearcherA}
  * 
- * @author Akash Nagesh and M. Kokar
+ * @author H. Raj
  *
  */
 public class Solver extends UntypedActor {
