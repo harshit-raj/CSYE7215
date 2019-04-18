@@ -10,7 +10,7 @@ import java.util.Scanner;
 /**
  * Main class for your estimation actor system.
  *
- * @author Akash Nagesh and M. Kokar
+ * @author H.Raj
  *
  */
 public class User {
